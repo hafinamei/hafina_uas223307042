@@ -1,0 +1,68 @@
+body {
+    background-color: brown;
+    background-size: url('/img/lucu.jpg') ;
+    margin: 0;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:darksalmon;
+    border: 1px solid #050303;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+h2{
+    text-align: center;
+}
+.navtop {
+    background-color: darksalmon;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h3, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #4a4c50;
+}
+h4, div a{
+    text-decoration-color: crimson;
+}
